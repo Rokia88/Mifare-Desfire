@@ -1,0 +1,806 @@
+info	libnfc.config	Unable to open file: /etc/nfc/libnfc.conf
+debug	libnfc.config	Unable to open directory: /etc/nfc/devices.d
+debug	libnfc.general	log_level is set to 3
+debug	libnfc.general	allow_autoscan is set to true
+debug	libnfc.general	allow_intrusive_scan is set to false
+debug	libnfc.general	0 device(s) defined by user
+Waiting time: 500000 μs.
+/home/rokia/Documents/Stage/workspace/RelayAttackDesfire2/Debug/RelayAttackDesfire2 uses libnfc libnfc-1.7.1
+debug	libnfc.driver.acr122_usb	device found: Bus 003 Device 018 Name Touchatag
+debug	libnfc.driver.acr122_usb	device found: Bus 003 Device 017 Name Touchatag
+debug	libnfc.general	2 device(s) found using acr122_usb driver
+debug	libnfc.driver.acr122_usb	3 element(s) have been decoded from "acr122_usb:003:017"
+debug	libnfc.driver.acr122_usb	TX: 62 00 00 00 00 00 00 01 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 13 00 00 00 00 00 00 00 00 3b be 95 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00 
+debug	libnfc.driver.acr122_usb	ACR122 PICC Operating Parameters
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff 00 51 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 63 00 
+debug	libnfc.chip.pn53x	GetFirmwareVersion
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 08 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 08 
+debug	libnfc.driver.acr122_usb	RX: 80 08 00 00 00 00 00 00 00 00 d5 03 32 01 04 07 90 00 
+debug	libnfc.chip.pn53x	SetParameters
+debug	libnfc.driver.acr122_usb	TX: 6f 08 00 00 00 00 00 00 00 00 ff 00 00 00 03 d4 12 14 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 13 90 00 
+debug	libnfc.general	"    / CCID USB Reader" (acr122_usb:003:017) has been claimed.
+NFC reader device:     / CCID USB Reader opened
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 06 63 02 63 03 63 0d 63 38 63 3d 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 09 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 09 
+debug	libnfc.driver.acr122_usb	RX: 80 09 00 00 00 00 00 00 00 00 d5 07 00 00 00 00 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxMode (Defines the transmission data rate and framing during transmission)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_RxMode (Defines the transmission data rate and framing during receiving)
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0d 00 00 00 00 00 00 00 00 ff 00 00 00 08 d4 08 63 02 80 63 03 80 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 32 01 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 33 90 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 32 01 01 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 33 90 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 32 05 ff ff ff 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 33 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 06 63 02 63 03 63 05 63 38 63 3c 63 3d 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0a 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0a 
+debug	libnfc.driver.acr122_usb	RX: 80 0a 00 00 00 00 00 00 00 00 d5 07 80 80 00 00 00 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxAuto (Controls the settings of the antenna driver)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_Control (Contains miscellaneous control bits)
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0d 00 00 00 00 00 00 00 00 ff 00 00 00 08 d4 08 63 05 40 63 3c 10 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	InListPassiveTarget
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 4a 01 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 17 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 17 
+debug	libnfc.driver.acr122_usb	RX: 80 17 00 00 00 00 00 00 00 00 d5 4b 01 01 03 44 20 07 04 5f 1e c1 b6 1b 80 06 75 77 81 02 80 90 00 
+Found tag:
+ISO/IEC 14443A (106 kbps) target:
+    ATQA (SENS_RES): 03  44  
+       UID (NFCID1): 04  5f  1e  c1  b6  1b  80  
+      SAK (SEL_RES): 20  
+                ATS: 75  77  81  02  80  
+Hint: tag <---> initiator (relay) <---> target (relay) <---> original reader
+
+We will emulate:
+ISO/IEC 14443A (106 kbps) target:
+    ATQA (SENS_RES): 03  04  
+       UID (NFCID3): 08  5f  1e  c1  
+      SAK (SEL_RES): 20  
+                ATS: 75  33  82  03  80  
+debug	libnfc.driver.acr122_usb	3 element(s) have been decoded from "acr122_usb:003:018"
+debug	libnfc.driver.acr122_usb	TX: 62 00 00 00 00 00 00 01 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 13 00 00 00 00 00 00 00 00 3b be 95 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00 
+debug	libnfc.driver.acr122_usb	ACR122 PICC Operating Parameters
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff 00 51 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 63 00 
+debug	libnfc.chip.pn53x	GetFirmwareVersion
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 08 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 08 
+debug	libnfc.driver.acr122_usb	RX: 80 08 00 00 00 00 00 00 00 00 d5 03 32 01 04 07 90 00 
+debug	libnfc.chip.pn53x	SetParameters
+debug	libnfc.driver.acr122_usb	TX: 6f 08 00 00 00 00 00 00 00 00 ff 00 00 00 03 d4 12 14 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+NFC emulator device:     / CCID USB Reader opened
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 13 90 00 
+debug	libnfc.general	"    / CCID USB Reader" (acr122_usb:003:018) has been claimed.
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 06 63 02 63 03 63 0d 63 38 63 3d 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 09 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 09 
+debug	libnfc.driver.acr122_usb	RX: 80 09 00 00 00 00 00 00 00 00 d5 07 00 00 00 00 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxMode (Defines the transmission data rate and framing during transmission)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_RxMode (Defines the transmission data rate and framing during receiving)
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0d 00 00 00 00 00 00 00 00 ff 00 00 00 08 d4 08 63 02 80 63 03 80 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 32 01 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 33 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 06 63 38 63 3d 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 06 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 06 
+debug	libnfc.driver.acr122_usb	RX: 80 06 00 00 00 00 00 00 00 00 d5 07 00 00 90 00 
+debug	libnfc.chip.pn53x	SetParameters
+debug	libnfc.driver.acr122_usb	TX: 6f 08 00 00 00 00 00 00 00 00 ff 00 00 00 03 d4 12 10 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 13 90 00 
+debug	libnfc.chip.pn53x	SetParameters
+debug	libnfc.driver.acr122_usb	TX: 6f 08 00 00 00 00 00 00 00 00 ff 00 00 00 03 d4 12 30 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 13 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 05 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxAuto (Controls the settings of the antenna driver)
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0a 00 00 00 00 00 00 00 00 ff 00 00 00 05 d4 08 63 05 04 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	TgInitAsTarget
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 2d 00 00 00 00 00 00 00 00 ff 00 00 00 28 d4 8c 05 04 03 5f 1e c1 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 80 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Done, relaying frames now!
+START : 5491722
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 8d 08 e0 50 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0e 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0e 
+Forwarding C-APDU: 90  5a  00  00  03  00  00  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0e 00 00 00 00 00 00 00 00 d5 87 00 90 5a 00 00 03 00 00 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 40 01 90 5a 00 00 03 00 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5493735
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+DURATION: 0.002013
+START : 5493809
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0a 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0a 
+Forwarding C-APDU: 90  6a  00  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0a 00 00 00 00 00 00 00 00 d5 87 00 90 6a 00 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0d 00 00 00 00 00 00 00 00 ff 00 00 00 08 d4 40 01 90 6a 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5495025
+DURATION: 0.001216
+START : 5495042
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 10 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 10 
+Forwarding C-APDU: 90  ca  00  00  05  02  00  00  0f  0e  00  
+debug	libnfc.driver.acr122_usb	RX: 80 10 00 00 00 00 00 00 00 00 d5 87 00 90 ca 00 00 05 02 00 00 0f 0e 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 40 01 90 ca 00 00 05 02 00 00 0f 0e 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	Forwarding R-APDU: 91  00  
+No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5497003
+DURATION: 0.001961
+START : 5497021
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0e 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0e 
+Forwarding C-APDU: 90  5a  00  00  03  02  00  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0e 00 00 00 00 00 00 00 00 d5 87 00 90 5a 00 00 03 02 00 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 40 01 90 5a 00 00 03 02 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5498469
+DURATION: 0.001448
+START : 5498498
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 12 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 12 
+Forwarding C-APDU: 90  cd  00  00  07  04  00  ee  ee  00  04  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 12 00 00 00 00 00 00 00 00 d5 87 00 90 cd 00 00 07 04 00 ee ee 00 04 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 15 00 00 00 00 00 00 00 00 ff 00 00 00 10 d4 40 01 90 cd 00 00 07 04 00 ee ee 00 04 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 Forwarding R-APDU: 91  00  
+
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5501371
+DURATION: 0.002873
+START : 5501408
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 12 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 12 
+Forwarding C-APDU: 90  cd  00  00  07  05  01  55  55  00  04  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 12 00 00 00 00 00 00 00 00 d5 87 00 90 cd 00 00 07 05 01 55 55 00 04 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 15 00 00 00 00 00 00 00 00 ff 00 00 00 10 d4 40 01 90 cd 00 00 07 05 01 55 55 00 04 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5505534
+DURATION: 0.004126
+START : 5505548
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 12 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 12 
+Forwarding C-APDU: 90  cd  00  00  07  09  03  55  55  00  04  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 12 00 00 00 00 00 00 00 00 d5 87 00 90 cd 00 00 07 09 03 55 55 00 04 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 15 00 00 00 00 00 00 00 00 ff 00 00 00 10 d4 40 01 90 cd 00 00 07 09 03 55 55 00 04 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5507712
+DURATION: 0.002164
+START : 5507727
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0a 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0a 
+Forwarding C-APDU: 90  45  00  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0a 00 00 00 00 00 00 00 00 d5 87 00 90 45 00 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0d 00 00 00 00 00 00 00 00 ff 00 00 00 08 d4 40 01 90 45 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 09 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 09 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 09 00 00 00 00 00 00 00 00 d5 41 00 0f 0e 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 8e 0f 0e 91 00 
+Forwarding R-APDU: 0f  0e  91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5508877
+DURATION: 0.001150
+START : 5508895
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0c 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0c 
+Forwarding C-APDU: 90  0a  00  00  01  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0c 00 00 00 00 00 00 00 00 d5 87 00 90 0a 00 00 01 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 40 01 90 0a 00 00 01 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0f 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0f 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 0f 00 00 00 00 00 00 00 00 d5 41 00 fe 12 8a 8a 71 49 cc 3e 91 af 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 8e fe 12 8a 8a 71 49 cc 3e 91 af 
+Forwarding R-APDU: fe  12  8a  8a  71  49  cc  3e  91  af  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5510297
+DURATION: 0.001402
+START : 5510312
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 1b 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 1b 
+Forwarding C-APDU: 90  af  00  00  10  cd  72  df  c6  e6  d0  40  a4  0d  33  02  3d  d9  31  b2  26  00  
+debug	libnfc.driver.acr122_usb	RX: 80 1b 00 00 00 00 00 00 00 00 d5 87 00 90 af 00 00 10 cd 72 df c6 e6 d0 40 a4 0d 33 02 3d d9 31 b2 26 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 1e 00 00 00 00 00 00 00 00 ff 00 00 00 19 d4 40 01 90 af 00 00 10 cd 72 df c6 e6 d0 40 a4 0d 33 02 3d d9 31 b2 26 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0f 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0f 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 0f 00 00 00 00 00 00 00 00 d5 41 00 ad 6c c1 60 25 cc fb 7b 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 8e ad 6c c1 60 25 cc fb 7b 91 00 
+Forwarding R-APDU: ad  6c  c1  60  25  cc  fb  7b  91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5512954
+DURATION: 0.002642
+START : 5512977
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 24 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 24 
+debug	libnfc.driver.acr122_usb	RX: 80 24 00 00 00 00 00 00 00 00 d5 87 00 90 c4 00 00 19 05 ff ca a7 f5 a5 d7 5f 32 92 3a b7 6a 69 a0 70 a8 a7 8c 44 a2 ea f9 2f e5 00 90 00 
+Forwarding C-APDU: 90  c4  00  00  19  05  ff  ca  a7  f5  a5  d7  5f  32  92  3a  b7  6a  69  a0  70  a8  a7  8c  44  a2  ea  f9  2f  e5  00  
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 27 00 00 00 00 00 00 00 00 ff 00 00 00 22 d4 40 01 90 c4 00 00 19 05 ff ca a7 f5 a5 d7 5f 32 92 3a b7 6a 69 a0 70 a8 a7 8c 44 a2 ea f9 2f e5 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5515240
+DURATION: 0.002263
+START : 5515256
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0c 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0c 
+Forwarding C-APDU: 90  0a  00  00  01  05  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0c 00 00 00 00 00 00 00 00 d5 87 00 90 0a 00 00 01 05 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 40 01 90 0a 00 00 01 05 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0f 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0f 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 0f 00 00 00 00 00 00 00 00 d5 41 00 dc 75 fc 31 de cb c9 13 91 af 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 8e dc 75 fc 31 de cb c9 13 91 af Forwarding R-APDU: dc  75  fc  31  de  cb  c9  13  91  af  
+
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5516686
+DURATION: 0.001430
+START : 5516730
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 1b 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 1b 
+debug	libnfc.driver.acr122_usb	RX: 80 1b 00 00 00 00 00 00 00 00 d5 87 00 90 af 00 00 10 80 ff 73 25 41 85 de d2 7c 56 61 be bb bb 27 47 00 90 00 
+debug	libnfc.chip.pn53x	Forwarding C-APDU: 90  af  00  00  10  80  ff  73  25  41  85  de  d2  7c  56  61  be  bb  bb  27  47  00  
+InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 1e 00 00 00 00 00 00 00 00 ff 00 00 00 19 d4 40 01 90 af 00 00 10 80 ff 73 25 41 85 de d2 7c 56 61 be bb bb 27 47 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0f 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0f 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 0f 00 00 00 00 00 00 00 00 d5 41 00 48 8b 0d 97 f6 4f ba 28 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 8e 48 8b 0d 97 f6 4f ba 28 91 00 
+Forwarding R-APDU: 48  8b  0d  97  f6  4f  ba  28  91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5518834
+DURATION: 0.002104
+START : 5518849
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 1c 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 1c 
+debug	libnfc.driver.acr122_usb	RX: 80 1c 00 00 00 00 00 00 00 00 d5 87 00 90 3d 00 00 11 04 00 00 00 0a 00 00 66 66 66 66 66 66 66 66 66 66 00 90 00 
+Forwarding C-APDU: 90  3d  00  00  11  04  00  00  00  0a  00  00  66  66  66  66  66  66  66  66  66  66  00  
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 1f 00 00 00 00 00 00 00 00 ff 00 00 00 1a d4 40 01 90 3d 00 00 11 04 00 00 00 0a 00 00 66 66 66 66 66 66 66 66 66 66 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5520597
+DURATION: 0.001748
+START : 5520643
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 20 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 20 
+debug	libnfc.driver.acr122_usb	RX: 80 20 00 00 00 00 00 00 00 00 d5 87 00 90 3d 00 00 15 05 00 00 00 0a 00 00 66 66 66 66 66 66 66 66 66 66 e3 86 99 cd 00 90 00 
+debug	libnfc.chip.pn53x	Forwarding C-APDU: 90  3d  00  00  15  05  00  00  00  0a  00  00  66  66  66  66  66  66  66  66  66  66  e3  86  99  cd  00  
+InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 23 00 00 00 00 00 00 00 00 ff 00 00 00 1e d4 40 01 90 3d 00 00 15 05 00 00 00 0a 00 00 66 66 66 66 66 66 66 66 66 66 e3 86 99 cd 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+Forwarding R-APDU: 91  00  
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5522081
+DURATION: 0.001438
+START : 5522096
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 22 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 22 
+debug	libnfc.driver.acr122_usb	RX: 80 22 00 00 00 00 00 00 00 00 d5 87 00 90 3d 00 00 17 09 00 00 00 0a 00 00 98 ad b0 ac 40 e9 db b7 1c 3a f2 2b fb 96 32 73 00 90 00 
+Forwarding C-APDU: 90  3d  00  00  17  09  00  00  00  0a  00  00  98  ad  b0  ac  40  e9  db  b7  1c  3a  f2  2b  fb  96  32  73  00  
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 25 00 00 00 00 00 00 00 00 ff 00 00 00 20 d4 40 01 90 3d 00 00 17 09 00 00 00 0a 00 00 98 ad b0 ac 40 e9 db b7 1c 3a f2 2b fb 96 32 73 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	Forwarding R-APDU: 91  00  
+TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5524117
+DURATION: 0.002021
+START : 5524151
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 12 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 12 
+Forwarding C-APDU: 90  bd  00  00  07  04  00  00  00  0a  00  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 12 00 00 00 00 00 00 00 00 d5 87 00 90 bd 00 00 07 04 00 00 00 0a 00 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 15 00 00 00 00 00 00 00 00 ff 00 00 00 10 d4 40 01 90 bd 00 00 07 04 00 00 00 0a 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 11 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 11 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 11 00 00 00 00 00 00 00 00 d5 41 00 66 66 66 66 66 66 66 66 66 66 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	Forwarding R-APDU: 66  66  66  66  66  66  66  66  66  66  91  00  
+TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 8e 66 66 66 66 66 66 66 66 66 66 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5525965
+DURATION: 0.001814
+START : 5525980
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 12 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 12 
+Forwarding C-APDU: 90  bd  00  00  07  05  00  00  00  0a  00  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 12 00 00 00 00 00 00 00 00 d5 87 00 90 bd 00 00 07 05 00 00 00 0a 00 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 15 00 00 00 00 00 00 00 00 ff 00 00 00 10 d4 40 01 90 bd 00 00 07 05 00 00 00 0a 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 15 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 15 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 15 00 00 00 00 00 00 00 00 d5 41 00 66 66 66 66 66 66 66 66 66 66 e3 86 99 cd 91 00 90 00 
+Forwarding R-APDU: 66  66  66  66  66  66  66  66  66  66  e3  86  99  cd  91  00  
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 17 00 00 00 00 00 00 00 00 ff 00 00 00 12 d4 8e 66 66 66 66 66 66 66 66 66 66 e3 86 99 cd 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5527874
+DURATION: 0.001894
+START : 5527899
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 12 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 12 
+Forwarding C-APDU: 90  bd  00  00  07  09  00  00  00  0a  00  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 12 00 00 00 00 00 00 00 00 d5 87 00 90 bd 00 00 07 09 00 00 00 0a 00 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 15 00 00 00 00 00 00 00 00 ff 00 00 00 10 d4 40 01 90 bd 00 00 07 09 00 00 00 0a 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 17 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 17 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 17 00 00 00 00 00 00 00 00 d5 41 00 6d 73 20 0b 7d cc bb 83 6e d6 86 33 65 a5 83 21 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+Forwarding R-APDU: 6d  73  20  0b  7d  cc  bb  83  6e  d6  86  33  65  a5  83  21  91  00  
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 19 00 00 00 00 00 00 00 00 ff 00 00 00 14 d4 8e 6d 73 20 0b 7d cc bb 83 6e d6 86 33 65 a5 83 21 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5529632
+DURATION: 0.001733
+START : 5529654
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0a 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0a 
+debug	libnfc.driver.acr122_usb	RX: 80 0a 00 00 00 00 00 00 00 00 d5 87 00 90 6f 00 00 00 90 00 
+Forwarding C-APDU: 90  6f  00  00  00  
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0d 00 00 00 00 00 00 00 00 ff 00 00 00 08 d4 40 01 90 6f 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0a 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0a 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 0a 00 00 00 00 00 00 00 00 d5 41 00 04 05 09 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+Forwarding R-APDU: 04  05  09  91  00  
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 0c 00 00 00 00 00 00 00 00 ff 00 00 00 07 d4 8e 04 05 09 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5530842
+DURATION: 0.001188
+START : 5530860
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0c 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0c 
+debug	libnfc.driver.acr122_usb	RX: 80 0c 00 00 00 00 00 00 00 00 d5 87 00 90 df 00 00 01 04 00 90 00 
+Forwarding C-APDU: 90  df  00  00  01  04  00  
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 40 01 90 df 00 00 01 04 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	Forwarding R-APDU: 91  00  
+No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5532003
+DURATION: 0.001143
+START : 5532021
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0c 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0c 
+Forwarding C-APDU: 90  df  00  00  01  05  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0c 00 00 00 00 00 00 00 00 d5 87 00 90 df 00 00 01 05 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 40 01 90 df 00 00 01 05 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5533316
+DURATION: 0.001295
+START : 5533335
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0c 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0c 
+Forwarding C-APDU: 90  df  00  00  01  09  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0c 00 00 00 00 00 00 00 00 d5 87 00 90 df 00 00 01 09 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 40 01 90 df 00 00 01 09 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	Forwarding R-APDU: 91  00  
+TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5535024
+DURATION: 0.001689
+START : 5535058
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0e 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0e 
+debug	libnfc.driver.acr122_usb	RX: 80 0e 00 00 00 00 00 00 00 00 d5 87 00 90 5a 00 00 03 00 00 00 00 90 00 
+Forwarding C-APDU: 90  5a  00  00  03  00  00  00  00  
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 40 01 90 5a 00 00 03 00 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5536590
+DURATION: 0.001532
+START : 5536624
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0c 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0c 
+Forwarding C-APDU: 90  0a  00  00  01  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0c 00 00 00 00 00 00 00 00 d5 87 00 90 0a 00 00 01 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 40 01 90 0a 00 00 01 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0f 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0f 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 0f 00 00 00 00 00 00 00 00 d5 41 00 76 0c ff 4f 5d 45 6c 62 91 af 90 00 
+Forwarding R-APDU: 76  0c  ff  4f  5d  45  6c  62  91  af  
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 8e 76 0c ff 4f 5d 45 6c 62 91 af 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+STOP :5538789
+DURATION: 0.002165
+START : 5538805
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 1b 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 1b 
+debug	libnfc.driver.acr122_usb	RX: 80 1b 00 00 00 00 00 00 00 00 d5 87 00 90 af 00 00 10 cd 72 df c6 e6 d0 40 a4 0c 74 18 00 22 a7 22 96 00 90 00 
+debug	libnfc.chip.pn53x	Forwarding C-APDU: 90  af  00  00  10  cd  72  df  c6  e6  d0  40  a4  0c  74  18  00  22  a7  22  96  00  
+InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 1e 00 00 00 00 00 00 00 00 ff 00 00 00 19 d4 40 01 90 af 00 00 10 cd 72 df c6 e6 d0 40 a4 0c 74 18 00 22 a7 22 96 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0f 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0f 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 0f 00 00 00 00 00 00 00 00 d5 41 00 ad 6c c1 60 25 cc fb 7b 91 00 90 00 
+Forwarding R-APDU: ad  6c  c1  60  25  cc  fb  7b  91  00  
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 8e ad 6c c1 60 25 cc fb 7b 91 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5540641
+DURATION: 0.001836
+START : 5540677
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0a 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0a 
+Forwarding C-APDU: 90  fc  00  00  00  
+debug	libnfc.driver.acr122_usb	RX: 80 0a 00 00 00 00 00 00 00 00 d5 87 00 90 fc 00 00 00 90 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.acr122_usb	TX: 6f 0d 00 00 00 00 00 00 00 00 ff 00 00 00 08 d4 40 01 90 fc 00 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+Waiting 0s and 500000μs to simulate longer relay...
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 41 00 91 00 90 00 
+debug	libnfc.chip.pn53x	TgSetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 8e 91 00 
+Forwarding R-APDU: 91  00  
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 8f 00 90 00 
+STOP :5542562
+DURATION: 0.001885
+START : 5542577
+debug	libnfc.chip.pn53x	TgGetData
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 86 
+error	libnfc.driver.acr122_usb	Invalid RDR_to_PC_DataBlock frame
+debug	libnfc.driver.acr122_usb	ACR122 Abort
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 02 
+error	libnfc.driver.acr122_usb	Unable to write to USB (No such device)
+nfc_target_receive_bytes: Input / Output Error
+debug	libnfc.driver.acr122_usb	ACR122 Abort
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 08 
+debug	libnfc.chip.pn53x	InRelease
+debug	libnfc.driver.acr122_usb	TX: 6f 08 00 00 00 00 00 00 00 00 ff 00 00 00 03 d4 52 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 53 00 90 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 32 01 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 33 90 00 
+-1 debug	libnfc.driver.acr122_usb	ACR122 Abort
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 02 
+error	libnfc.driver.acr122_usb	Unable to write to USB (No such device)
+debug	libnfc.chip.pn53x	InRelease
+debug	libnfc.driver.acr122_usb	TX: 6f 08 00 00 00 00 00 00 00 00 ff 00 00 00 03 d4 52 00 
+error	libnfc.driver.acr122_usb	Unable to write to USB (No such device)
+error	libnfc.driver.acr122_usb	Unable to release USB interface (No such device)

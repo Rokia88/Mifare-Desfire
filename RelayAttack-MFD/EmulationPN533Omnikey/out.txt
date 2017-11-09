@@ -1,0 +1,2298 @@
+info	libnfc.config	Unable to open file: /etc/nfc/libnfc.conf
+debug	libnfc.config	Unable to open directory: /etc/nfc/devices.d
+debug	libnfc.general	log_level is set to 3
+debug	libnfc.general	allow_autoscan is set to true
+debug	libnfc.general	allow_intrusive_scan is set to false
+debug	libnfc.general	0 device(s) defined by user
+Waiting time: 8 secs.
+/home/rokia/Documents/Stage/workspace/EmulationPN533Omnikey/Debug/EmulationPN533Omnikey uses libnfc libnfc-1.7.1
+debug	libnfc.general	0 device(s) found using acr122_usb driver
+debug	libnfc.driver.pn53x_usb	device found: Bus 003 Device 063
+debug	libnfc.driver.pn53x_usb	device found: Bus 003 Device 058
+debug	libnfc.general	2 device(s) found using pn53x_usb driver
+debug	libnfc.driver.pn53x_usb	3 element(s) have been decoded from "pn53x_usb:003:063"
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	GetFirmwareVersion
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 02 2a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 06 fa d5 03 33 02 07 07 e5 00 
+debug	libnfc.chip.pn53x	GetFirmwareVersion
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 02 2a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 06 fa d5 03 33 02 07 07 e5 00 
+debug	libnfc.chip.pn53x	SetParameters
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 12 14 06 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 02 fe d5 13 18 00 
+debug	libnfc.general	"SCM Micro / SCL3711-NFC&RW" (pn53x_usb:003:063) has been claimed.
+NFC reader device: SCM Micro / SCL3711-NFC&RW opened
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0c f4 d4 06 63 02 63 03 63 0d 63 38 63 3d b0 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 08 f8 d5 07 00 80 80 00 00 00 24 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 32 01 00 f9 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 02 fe d5 33 f8 00 
+debug	libnfc.chip.pn53x	PN53X_SFR_P3 (Port 3 value)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 06 ff b0 77 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 07 00 3e e6 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 32 01 01 f8 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 02 fe d5 33 f8 00 
+debug	libnfc.chip.pn53x	PN53X_SFR_P3 (Port 3 value)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 06 ff b0 77 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 07 00 3e e6 00 
+debug	libnfc.chip.pn53x	PN53X_SFR_P3 (Port 3 value)
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 08 ff b0 3a 3b 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 09 00 22 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 06 fa d4 32 05 ff ff ff f8 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 02 fe d5 33 f8 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0e f2 d4 06 63 02 63 03 63 05 63 38 63 3c 63 3d 19 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 07 00 80 80 40 00 10 00 d4 00 
+debug	libnfc.chip.pn53x	InListPassiveTarget
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 4a 01 00 e1 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Found tag:
+ISO/IEC 14443A (106 kbps) target:
+    ATQA (SENS_RES): 03  44  
+       UID (NFCID1): 04  5f  1e  c1  b6  1b  80  
+      SAK (SEL_RES): 20  
+                ATS: 75  77  81  02  80  
+Hint: tag <---> initiator (relay) <---> target (relay) <---> original reader
+
+We will emulate:
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 15 eb d5 4b 01 01 03 44 20 07 04 5f 1e c1 b6 1b 80 06 75 77 81 02 80 e8 00 
+ISO/IEC 14443A (106 kbps) target:
+    ATQA (SENS_RES): 03  04  
+       UID (NFCID3): 08  5f  1e  c1  
+      SAK (SEL_RES): 20  
+                ATS: 75  00  e2  03  80  
+debug	libnfc.driver.pn53x_usb	3 element(s) have been decoded from "pn53x_usb:003:058"
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	GetFirmwareVersion
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 02 2a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 06 fa d5 03 33 02 07 07 e5 00 
+debug	libnfc.chip.pn53x	GetFirmwareVersion
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 02 2a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 06 fa d5 03 33 02 07 07 e5 00 
+debug	libnfc.chip.pn53x	SetParameters
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 12 14 06 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+NFC emulator device: SCL3711-NFC&RW / SCL3711-NFC&RW opened
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 02 fe d5 13 18 00 
+debug	libnfc.general	"SCL3711-NFC&RW / SCL3711-NFC&RW" (pn53x_usb:003:058) has been claimed.
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0c f4 d4 06 63 02 63 03 63 0d 63 38 63 3d b0 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 08 f8 d5 07 00 80 80 00 11 00 13 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 32 01 00 f9 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 02 fe d5 33 f8 00 
+debug	libnfc.chip.pn53x	PN53X_SFR_P3 (Port 3 value)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 06 ff b0 77 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 07 00 3e e6 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 06 fa d4 06 63 38 63 3d eb 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 07 00 10 00 14 00 
+debug	libnfc.chip.pn53x	SetParameters
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 12 10 0a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 02 fe d5 13 18 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 06 63 05 be 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 07 00 00 24 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxAuto (Controls the settings of the antenna driver)
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 08 63 05 04 b8 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 09 00 22 00 
+debug	libnfc.chip.pn53x	TgInitAsTarget
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 28 d8 d4 8c 01 04 03 5f 1e c1 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 80 b9 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Done, relaying frames now!
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 8d 00 e0 80 3e 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: e0  80  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 89 00 e0 80 42 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 90 06 75 00 e2 03 80 bc 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+ATS:06  75  00  e2  03  80  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  0b  a0  00  00  03  97  43  49  44  5f  01  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 14 ec d5 89 00 02 00 a4 04 00 0b a0 00 00 03 97 43 49 44 5f 01 00 83 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  ca  7f  68  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 00 ca 7f 68 00 ee 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  09  a0  00  00  03  08  00  00  10  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 02 00 a4 04 00 09 a0 00 00 03 08 00 00 10 00 34 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  a4  04  00  09  a0  00  00  03  97  42  54  46  59  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 03 00 a4 04 00 09 a0 00 00 03 97 42 54 46 59 7f 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  0b  a0  00  00  03  97  43  49  44  5f  01  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 14 ec d5 89 00 02 00 a4 04 00 0b a0 00 00 03 97 43 49 44 5f 01 00 83 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  ca  7f  68  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 00 ca 7f 68 00 ee 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  09  a0  00  00  03  08  00  00  10  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 02 00 a4 04 00 09 a0 00 00 03 08 00 00 10 00 34 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  a4  04  00  09  a0  00  00  03  97  42  54  46  59  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 03 00 a4 04 00 09 a0 00 00 03 97 42 54 46 59 7f 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  0b  a0  00  00  03  97  43  49  44  5f  01  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 14 ec d5 89 00 02 00 a4 04 00 0b a0 00 00 03 97 43 49 44 5f 01 00 83 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  ca  7f  68  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 00 ca 7f 68 00 ee 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  09  a0  00  00  03  08  00  00  10  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 02 00 a4 04 00 09 a0 00 00 03 08 00 00 10 00 34 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  a4  04  00  09  a0  00  00  03  97  42  54  46  59  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 03 00 a4 04 00 09 a0 00 00 03 97 42 54 46 59 7f 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  0b  a0  00  00  03  97  43  49  44  5f  01  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 14 ec d5 89 00 02 00 a4 04 00 0b a0 00 00 03 97 43 49 44 5f 01 00 83 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  ca  7f  68  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 00 ca 7f 68 00 ee 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  09  a0  00  00  03  08  00  00  10  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 02 00 a4 04 00 09 a0 00 00 03 08 00 00 10 00 34 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  a4  04  00  09  a0  00  00  03  97  42  54  46  59  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 03 00 a4 04 00 09 a0 00 00 03 97 42 54 46 59 7f 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  0b  a0  00  00  03  97  43  49  44  5f  01  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 14 ec d5 89 00 02 00 a4 04 00 0b a0 00 00 03 97 43 49 44 5f 01 00 83 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  ca  7f  68  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 00 ca 7f 68 00 ee 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  00  a4  04  00  09  a0  00  00  03  08  00  00  10  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 02 00 a4 04 00 09 a0 00 00 03 08 00 00 10 00 34 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  00  a4  04  00  09  a0  00  00  03  97  42  54  46  59  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 12 ee d5 89 00 03 00 a4 04 00 09 a0 00 00 03 97 42 54 46 59 7f 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+Send R(ack):a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 Send R(ack):a2  
+
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  5a  00  00  03  00  00  00  00  
+Forwarding C-APDU: 90  5a  00  00  03  00  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 89 00 02 90 5a 00 00 03 00 00 00 00 b3 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0c f4 d4 40 01 90 5a 00 00 03 00 00 00 00 fe 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 02  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  6a  00  00  00  
+Forwarding C-APDU: 90  6a  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 90 6a 00 00 00 a5 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 40 01 90 6a 00 00 00 f1 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 03  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  ca  00  00  05  02  00  00  0f  0e  00  
+Forwarding C-APDU: 90  ca  00  00  05  02  00  00  0f  0e  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0f f1 d5 89 00 02 90 ca 00 00 05 02 00 00 0f 0e 00 22 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0e f2 d4 40 01 90 ca 00 00 05 02 00 00 0f 0e 00 6d 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 02  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  5a  00  00  03  02  00  00  00  
+Forwarding C-APDU: 90  5a  00  00  03  02  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 89 00 03 90 5a 00 00 03 02 00 00 00 b0 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0c f4 d4 40 01 90 5a 00 00 03 02 00 00 00 fc 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 03  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  cd  00  00  07  04  00  ee  ee  00  04  00  00  
+Forwarding C-APDU: 90  cd  00  00  07  04  00  ee  ee  00  04  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 11 ef d5 89 00 02 90 cd 00 00 07 04 00 ee ee 00 04 00 00 58 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 10 f0 d4 40 01 90 cd 00 00 07 04 00 ee ee 00 04 00 00 a3 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 02  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  cd  00  00  07  05  01  55  55  00  04  00  00  
+Forwarding C-APDU: 90  cd  00  00  07  05  01  55  55  00  04  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 11 ef d5 89 00 03 90 cd 00 00 07 05 01 55 55 00 04 00 00 87 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 10 f0 d4 40 01 90 cd 00 00 07 05 01 55 55 00 04 00 00 d3 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 03  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 Forwarding C-APDU: b2  
+ack:a2  
+
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  cd  00  00  07  09  03  55  55  00  04  00  00  
+Forwarding C-APDU: 90  cd  00  00  07  09  03  55  55  00  04  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 11 ef d5 89 00 02 90 cd 00 00 07 09 03 55 55 00 04 00 00 82 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 10 f0 d4 40 01 90 cd 00 00 07 09 03 55 55 00 04 00 00 cd 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+
+Forwarding R-APDU: 02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  45  00  00  00  
+Forwarding C-APDU: 90  45  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 90 45 00 00 00 ca 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 40 01 90 45 00 00 00 16 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 07 f9 d5 41 00 0f 0e 91 00 3c 00 
+Forwarding R-APDU: 0f  0e  91  00  
+Forwarding R-APDU: 03  0f  0e  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 07 f9 d4 90 03 0f 0e 91 00 eb 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  0a  00  00  01  00  00  
+Forwarding C-APDU: 90  0a  00  00  01  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0b f5 d5 89 00 02 90 0a 00 00 01 00 00 05 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0a f6 d4 40 01 90 0a 00 00 01 00 00 50 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 41 00 ab 89 66 ef ae c6 ee 46 91 af 79 00 
+Forwarding R-APDU: ab  89  66  ef  ae  c6  ee  46  91  af  
+Forwarding R-APDU: 02  ab  89  66  ef  ae  c6  ee  46  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 02 ab 89 66 ef ae c6 ee 46 91 af 29 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 02 ab 89 66 ef ae c6 ee 46 91 af 29 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  ab  89  66  ef  ae  c6  ee  46  91  af  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  af  00  00  10  cd  72  df  c6  e6  d0  40  a4  a8  11  95  37  53  d6  35  0d  00  
+Forwarding C-APDU: 90  af  00  00  10  cd  72  df  c6  e6  d0  40  a4  a8  11  95  37  53  d6  35  0d  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 1a e6 d5 89 00 03 90 af 00 00 10 cd 72 df c6 e6 d0 40 a4 a8 11 95 37 53 d6 35 0d 00 e2 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 19 e7 d4 40 01 90 af 00 00 10 cd 72 df c6 e6 d0 40 a4 a8 11 95 37 53 d6 35 0d 00 2e 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 41 00 ad 6c c1 60 25 cc fb 7b 91 00 b8 00 
+Forwarding R-APDU: ad  6c  c1  60  25  cc  fb  7b  91  00  
+Forwarding R-APDU: 03  ad  6c  c1  60  25  cc  fb  7b  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 03 ad 6c c1 60 25 cc fb 7b 91 00 67 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  c4  00  00  19  05  0e  c2  1c  82  b3  cb  e5  9b  5f  13  4f  3e  34  8d  81  ce  55  70  09  99  df  42  c7  64  00  
+Forwarding C-APDU: 90  c4  00  00  19  05  0e  c2  1c  82  b3  cb  e5  9b  5f  13  4f  3e  34  8d  81  ce  55  70  09  99  df  42  c7  64  00  debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 23 dd d5 89 00 02 90 c4 00 00 19 05 0e c2 1c 82 b3 cb e5 9b 5f 13 4f 3e 34 8d 81 ce 55 70 09 99 df 42 c7 64 00 00 00 
+
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 22 de d4 40 01 90 c4 00 00 19 05 0e c2 1c 82 b3 cb e5 9b 5f 13 4f 3e 34 8d 81 ce 55 70 09 99 df 42 c7 64 00 4b 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 02  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  0a  00  00  01  05  00  
+Forwarding C-APDU: 90  0a  00  00  01  05  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0b f5 d5 89 00 03 90 0a 00 00 01 05 00 ff 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0a f6 d4 40 01 90 0a 00 00 01 05 00 4b 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 41 00 a3 32 c2 6e 8b 67 f8 23 91 af 98 00 
+Forwarding R-APDU: a3  32  c2  6e  8b  67  f8  23  91  af  
+Forwarding R-APDU: 03  a3  32  c2  6e  8b  67  f8  23  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 03 a3 32 c2 6e 8b 67 f8 23 91 af 47 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  af  00  00  10  80  ff  73  25  41  85  de  d2  40  e8  1c  39  0b  2a  66  04  00  
+Forwarding C-APDU: 90  af  00  00  10  80  ff  73  25  41  85  de  d2  40  e8  1c  39  0b  2a  66  04  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 1a e6 d5 89 00 02 90 af 00 00 10 80 ff 73 25 41 85 de d2 40 e8 1c 39 0b 2a 66 04 00 a8 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 19 e7 d4 40 01 90 af 00 00 10 80 ff 73 25 41 85 de d2 40 e8 1c 39 0b 2a 66 04 00 f3 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 41 00 48 8b 0d 97 f6 4f ba 28 91 00 bb 00 
+Forwarding R-APDU: 48  8b  0d  97  f6  4f  ba  28  91  00  
+Forwarding R-APDU: 02  48  8b  0d  97  f6  4f  ba  28  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 02 48 8b 0d 97 f6 4f ba 28 91 00 6b 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 02 48 8b 0d 97 f6 4f ba 28 91 00 6b 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  48  8b  0d  97  f6  4f  ba  28  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 13  90  3d  00  00  3b  04  00  00  00  60  00  00  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  
+ack:a3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 41 bf d5 89 00 13 90 3d 00 00 3b 04 00 00 00 60 00 00 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 9d 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a3 f9 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  66  66  66  00  
+Forwarding C-APDU: 90  3d  00  00  3b  04  00  00  00  60  00  00  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 08 f8 d5 89 00 02 66 66 66 00 6e 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 44 bc d4 40 01 90 3d 00 00 3b 04 00 00 00 60 00 00 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 00 c7 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 af aa 00 
+Forwarding R-APDU: 91  af  
+Forwarding R-APDU: 02  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 af 5a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 af 5a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  af  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  af  00  00  2c  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 36 ca d5 89 00 03 90 af 00 00 2c 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 00 ac 00 
+Forwarding C-APDU: 90  af  00  00  2c  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  00  
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 35 cb d4 40 01 90 af 00 00 2c 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 00 f8 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 03  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 12  90  3d  00  00  3b  05  00  00  00  60  00  00  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 41 bf d5 89 00 12 90 3d 00 00 3b 05 00 00 00 60 00 00 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 9d 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  66  66  66  00  
+Forwarding C-APDU: 90  3d  00  00  3b  05  00  00  00  60  00  00  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 08 f8 d5 89 00 03 66 66 66 00 6d 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 44 bc d4 40 01 90 3d 00 00 3b 05 00 00 00 60 00 00 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 00 c6 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 af aa 00 
+Forwarding R-APDU: 91  af  
+Forwarding R-APDU: 03  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 af 59 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  af  00  00  30  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  0b  86  58  e4  00  
+Forwarding C-APDU: 90  af  00  00  30  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  0b  86  58  e4  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 3a c6 d5 89 00 02 90 af 00 00 30 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 0b 86 58 e4 00 dc 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 39 c7 d4 40 01 90 af 00 00 30 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 0b 86 58 e4 00 27 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 02  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 Forwarding C-APDU: b3  
+
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 13  90  3d  00  00  3b  09  00  00  00  60  00  00  f2  e1  3c  b1  76  d3  3c  76  64  d2  d5  e9  64  ec  15  51  2b  97  83  bc  8f  23  27  f6  a0  12  49  bb  53  aa  e8  41  91  b9  79  e7  12  72  58  66  85  de  33  17  ae  33  aa  93  19  
+ack:a3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 41 bf d5 89 00 13 90 3d 00 00 3b 09 00 00 00 60 00 00 f2 e1 3c b1 76 d3 3c 76 64 d2 d5 e9 64 ec 15 51 2b 97 83 bc 8f 23 27 f6 a0 12 49 bb 53 aa e8 41 91 b9 79 e7 12 72 58 66 85 de 33 17 ae 33 aa 93 19 3d 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a3 f9 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  d3  a7  5d  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 08 f8 d5 89 00 02 d3 a7 5d 00 c9 00 
+Forwarding C-APDU: 90  3d  00  00  3b  09  00  00  00  60  00  00  f2  e1  3c  b1  76  d3  3c  76  64  d2  d5  e9  64  ec  15  51  2b  97  83  bc  8f  23  27  f6  a0  12  49  bb  53  aa  e8  41  91  b9  79  e7  12  72  58  66  85  de  33  17  ae  33  aa  93  19  d3  a7  5d  00  
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 44 bc d4 40 01 90 3d 00 00 3b 09 00 00 00 60 00 00 f2 e1 3c b1 76 d3 3c 76 64 d2 d5 e9 64 ec 15 51 2b 97 83 bc 8f 23 27 f6 a0 12 49 bb 53 aa e8 41 91 b9 79 e7 12 72 58 66 85 de 33 17 ae 33 aa 93 19 d3 a7 5d 00 c2 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 af aa 00 
+Forwarding R-APDU: 91  af  
+Forwarding R-APDU: 02  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 af 5a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 af 5a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  af  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  af  00  00  34  39  19  16  cd  e2  db  b0  24  7d  90  96  11  15  03  9d  1b  64  aa  9f  d1  72  29  3e  bf  fd  94  a2  c7  ed  d0  67  d3  f9  05  14  9d  96  34  73  d4  ec  31  44  af  6d  f2  e6  6a  92  cb  5f  38  00  
+Forwarding C-APDU: 90  af  00  00  34  39  19  16  cd  e2  db  b0  24  7d  90  96  11  15  03  9d  1b  64  aa  9f  d1  72  29  3e  bf  fd  94  a2  c7  ed  d0  67  d3  f9  05  14  9d  96  34  73  d4  ec  31  44  af  6d  f2  e6  6a  92  cb  5f  38  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 3e c2 d5 89 00 03 90 af 00 00 34 39 19 16 cd e2 db b0 24 7d 90 96 11 15 03 9d 1b 64 aa 9f d1 72 29 3e bf fd 94 a2 c7 ed d0 67 d3 f9 05 14 9d 96 34 73 d4 ec 31 44 af 6d f2 e6 6a 92 cb 5f 38 00 68 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 3d c3 d4 40 01 90 af 00 00 34 39 19 16 cd e2 db b0 24 7d 90 96 11 15 03 9d 1b 64 aa 9f d1 72 29 3e bf fd 94 a2 c7 ed d0 67 d3 f9 05 14 9d 96 34 73 d4 ec 31 44 af 6d f2 e6 6a 92 cb 5f 38 00 b4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 03  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  bd  00  00  07  04  00  00  00  60  00  00  00  
+Forwarding C-APDU: 90  bd  00  00  07  04  00  00  00  60  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 11 ef d5 89 00 02 90 bd 00 00 07 04 00 00 00 60 00 00 00 e8 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 10 f0 d4 40 01 90 bd 00 00 07 04 00 00 00 60 00 00 00 33 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 40 c0 d5 41 00 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 91 af 28 00 
+Forwarding R-APDU: 66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+Forwarding R-APDU: 02  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  91  af  
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 40 c0 d4 90 02 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 91 af d8 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 40 c0 d4 90 02 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 91 af d8 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  91  af  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  af  00  00  00  
+Forwarding C-APDU: 90  af  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 90 af 00 00 00 60 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 40 01 90 af 00 00 00 ac 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 2a d6 d5 41 00 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 91 00 9b 00 
+Forwarding R-APDU: 66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  91  00  
+Forwarding R-APDU: 03  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 2a d6 d4 90 03 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 91 00 4a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  bd  00  00  07  05  00  00  00  60  00  00  00  
+Forwarding C-APDU: 90  bd  00  00  07  05  00  00  00  60  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 11 ef d5 89 00 02 90 bd 00 00 07 05 00 00 00 60 00 00 00 e7 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 10 f0 d4 40 01 90 bd 00 00 07 05 00 00 00 60 00 00 00 32 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 3d c3 d5 41 00 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 91 af 5a 00 
+Forwarding R-APDU: 66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+Forwarding R-APDU: 02  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  91  af  
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 3d c3 d4 90 02 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 91 af 0a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 3d c3 d4 90 02 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 91 af 0a 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  91  af  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  af  00  00  00  
+Forwarding C-APDU: 90  af  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 90 af 00 00 00 60 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 40 01 90 af 00 00 00 ac 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 31 cf d5 41 00 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 0b 86 58 e4 91 00 9c 00 
+Forwarding R-APDU: 66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  0b  86  58  e4  91  00  
+Forwarding R-APDU: 03  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  66  0b  86  58  e4  91  00  debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 31 cf d4 90 03 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 0b 86 58 e4 91 00 4b 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  bd  00  00  07  09  00  00  00  60  00  00  00  
+Forwarding C-APDU: 90  bd  00  00  07  09  00  00  00  60  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 11 ef d5 89 00 02 90 bd 00 00 07 09 00 00 00 60 00 00 00 e3 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 10 f0 d4 40 01 90 bd 00 00 07 09 00 00 00 60 00 00 00 2e 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 3d c3 d5 41 00 1b 9d 9a 38 ef 0e 35 05 89 ff 1d 16 c9 1f a1 7a f3 d8 ae 1f 8e 0b 6b b4 e2 fd 18 da c3 9a 09 b9 be c9 f9 b4 df 10 99 f3 b4 39 89 34 2a a8 58 34 c8 41 da b6 36 fb 79 4e 91 af a3 00 
+Forwarding R-APDU: 1b  9d  9a  38  ef  0e  35  05  89  ff  1d  16  c9  1f  a1  7a  f3  d8  ae  1f  8e  0b  6b  b4  e2  fd  18  da  c3  9a  09  b9  be  c9  f9  b4  df  10  99  f3  b4  39  89  34  2a  a8  58  34  c8  41  da  b6  36  fb  79  4e  91  af  
+Forwarding R-APDU: 02  1b  9d  9a  38  ef  0e  35  05  89  ff  1d  16  c9  1f  a1  7a  f3  d8  ae  1f  8e  0b  6b  b4  e2  fd  18  da  c3  9a  09  b9  be  c9  f9  b4  df  10  99  f3  b4  39  89  34  2a  a8  58  34  c8  41  da  b6  36  fb  79  4e  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 3d c3 d4 90 02 1b 9d 9a 38 ef 0e 35 05 89 ff 1d 16 c9 1f a1 7a f3 d8 ae 1f 8e 0b 6b b4 e2 fd 18 da c3 9a 09 b9 be c9 f9 b4 df 10 99 f3 b4 39 89 34 2a a8 58 34 c8 41 da b6 36 fb 79 4e 91 af 53 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 3d c3 d4 90 02 1b 9d 9a 38 ef 0e 35 05 89 ff 1d 16 c9 1f a1 7a f3 d8 ae 1f 8e 0b 6b b4 e2 fd 18 da c3 9a 09 b9 be c9 f9 b4 df 10 99 f3 b4 39 89 34 2a a8 58 34 c8 41 da b6 36 fb 79 4e 91 af 53 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  1b  9d  9a  38  ef  0e  35  05  89  ff  1d  16  c9  1f  a1  7a  f3  d8  ae  1f  8e  0b  6b  b4  e2  fd  18  da  c3  9a  09  b9  be  c9  f9  b4  df  10  99  f3  b4  39  89  34  2a  a8  58  34  c8  41  da  b6  36  fb  79  4e  91  af  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  af  00  00  00  
+Forwarding C-APDU: 90  af  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 90 af 00 00 00 60 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 40 01 90 af 00 00 00 ac 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 35 cb d5 41 00 a3 f0 c4 94 2f a3 80 88 5c cc 09 6a 88 18 a6 32 8e cd 03 4f c0 c1 96 00 0f 30 d3 cd f7 fc fa d4 0b 86 58 e4 8c 2e 6f 8c 84 39 43 98 01 be 67 b8 91 00 25 00 
+Forwarding R-APDU: a3  f0  c4  94  2f  a3  80  88  5c  cc  09  6a  88  18  a6  32  8e  cd  03  4f  c0  c1  96  00  0f  30  d3  cd  f7  fc  fa  d4  0b  86  58  e4  8c  2e  6f  8c  84  39  43  98  01  be  67  b8  91  00  
+Forwarding R-APDU: 03  a3  f0  c4  94  2f  a3  80  88  5c  cc  09  6a  88  18  a6  32  8e  cd  03  4f  c0  c1  96  00  0f  30  d3  cd  f7  fc  fa  d4  0b  86  58  e4  8c  2e  6f  8c  84  39  43  98  01  be  67  b8  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 35 cb d4 90 03 a3 f0 c4 94 2f a3 80 88 5c cc 09 6a 88 18 a6 32 8e cd 03 4f c0 c1 96 00 0f 30 d3 cd f7 fc fa d4 0b 86 58 e4 8c 2e 6f 8c 84 39 43 98 01 be 67 b8 91 00 d4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  6f  00  00  00  
+Forwarding C-APDU: 90  6f  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 02 90 6f 00 00 00 a1 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 40 01 90 6f 00 00 00 ec 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 08 f8 d5 41 00 04 05 09 91 00 47 00 
+Forwarding R-APDU: 04  05  09  91  00  
+Forwarding R-APDU: 02  04  05  09  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 90 02 04 05 09 91 00 f7 00 
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 90 02 04 05 09 91 00 f7 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommandRetransmission of RAPDU:02  04  05  09  91  00  
+
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  df  00  00  01  04  00  
+Forwarding C-APDU: 90  df  00  00  01  04  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0b f5 d5 89 00 03 90 df 00 00 01 04 00 2b 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0a f6 d4 40 01 90 df 00 00 01 04 00 77 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 03  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  df  00  00  01  05  00  
+Forwarding C-APDU: 90  df  00  00  01  05  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0b f5 d5 89 00 02 90 df 00 00 01 05 00 2b 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0a f6 d4 40 01 90 df 00 00 01 05 00 76 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 02  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  df  00  00  01  09  00  
+Forwarding C-APDU: 90  df  00  00  01  09  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0b f5 d5 89 00 03 90 df 00 00 01 09 00 26 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0a f6 d4 40 01 90 df 00 00 01 09 00 72 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 03  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  5a  00  00  03  00  00  00  00  
+Forwarding C-APDU: 90  5a  00  00  03  00  00  00  00  debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 89 00 02 90 5a 00 00 03 00 00 00 00 b3 00 
+
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0c f4 d4 40 01 90 5a 00 00 03 00 00 00 00 fe 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 02  91  00  
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 02 91 00 09 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  0a  00  00  01  00  00  
+Forwarding C-APDU: 90  0a  00  00  01  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0b f5 d5 89 00 03 90 0a 00 00 01 00 00 04 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0a f6 d4 40 01 90 0a 00 00 01 00 00 50 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 41 00 6a 24 41 77 65 db 65 74 91 af 4b 00 
+Forwarding R-APDU: 6a  24  41  77  65  db  65  74  91  af  
+Forwarding R-APDU: 03  6a  24  41  77  65  db  65  74  91  af  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 03 6a 24 41 77 65 db 65 74 91 af fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 02  90  af  00  00  10  cd  72  df  c6  e6  d0  40  a4  72  e4  ab  4b  85  01  fe  1e  00  
+Forwarding C-APDU: 90  af  00  00  10  cd  72  df  c6  e6  d0  40  a4  72  e4  ab  4b  85  01  fe  1e  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 1a e6 d5 89 00 02 90 af 00 00 10 cd 72 df c6 e6 d0 40 a4 72 e4 ab 4b 85 01 fe 1e 00 e5 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 19 e7 d4 40 01 90 af 00 00 10 cd 72 df c6 e6 d0 40 a4 72 e4 ab 4b 85 01 fe 1e 00 30 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 0d f3 d5 41 00 ad 6c c1 60 25 cc fb 7b 91 00 b8 00 
+Forwarding R-APDU: ad  6c  c1  60  25  cc  fb  7b  91  00  
+Forwarding R-APDU: 02  ad  6c  c1  60  25  cc  fb  7b  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 02 ad 6c c1 60 25 cc fb 7b 91 00 68 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b3  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b3 ef 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 0d f3 d4 90 02 ad 6c c1 60 25 cc fb 7b 91 00 68 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Retransmission of RAPDU:02  ad  6c  c1  60  25  cc  fb  7b  91  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: 03  90  fc  00  00  00  
+Forwarding C-APDU: 90  fc  00  00  00  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 09 f7 d5 89 00 03 90 fc 00 00 00 13 00 
+debug	libnfc.chip.pn53x	InDataExchange
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 08 f8 d4 40 01 90 fc 00 00 00 5f 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Waiting 8s to simulate longer relay...
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 05 fb d5 41 00 91 00 59 00 
+Forwarding R-APDU: 91  00  
+Forwarding R-APDU: 03  91  00  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 90 03 91 00 08 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+ack:a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Forwarding C-APDU: b2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 89 00 b2 f0 00 
+ack:a2  
+debug	libnfc.chip.pn53x	TgResponseToInitiator
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 90 a2 fa 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+Send R(ack):a2  
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 91 00 9a 00 
+debug	libnfc.chip.pn53x	TgGetInitiatorCommand
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 02 fe d4 88 a4 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 89 02 a0 00 
+debug	libnfc.chip.pn53x	Chip error: "CRC Error" (02), returned error: "RF Transmission Error" (-20))
+nfc_target_receive_bytes: RF Transmission Error
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	InRelease
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 52 00 da 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 53 00 d8 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 32 01 00 f9 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 02 fe d5 33 f8 00 
+debug	libnfc.chip.pn53x	PN53X_SFR_P3 (Port 3 value)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 04 fc d4 06 ff b0 77 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 04 fc d5 07 00 3a ea 00 
+debug	libnfc.chip.pn53x	PN53X_SFR_P3 (Port 3 value)
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 05 fb d4 08 ff b0 3e 37 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 09 00 22 00 
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	InRelease
+debug	libnfc.driver.pn53x_usb	TX: 00 00 ff 03 fd d4 52 00 da 00 
+debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 00 ff 00 
+debug	libnfc.chip.pn53x	PN53x ACKed
+-20 debug	libnfc.driver.pn53x_usb	RX: 00 00 ff 03 fd d5 53 00 d8 00 

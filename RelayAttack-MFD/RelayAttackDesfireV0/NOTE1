@@ -1,0 +1,3 @@
+Il y a deux fichiers qui permettent de faire une attaque par relai: nfc-relay.c et nfc-relay-picc.c. la différence c'est que dans nfc-relay.c , l'envoi, la réception , 
+et les échanges sont au niveau bits , alors que dans le deuxième, ils sont au nveau bytes. Dans le premier la gestion d'erreur doit etre faite
+par le développeur alors que dans le dans le deuxième ceci est fait automatiquement par la puce pn532.

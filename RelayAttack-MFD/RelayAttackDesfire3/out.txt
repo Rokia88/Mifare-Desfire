@@ -1,0 +1,314 @@
+the size of data to write is 10
+the size of data to read is 10
+info	libnfc.config	Unable to open file: /etc/nfc/libnfc.conf
+debug	libnfc.config	Unable to open directory: /etc/nfc/devices.d
+debug	libnfc.general	log_level is set to 3
+debug	libnfc.general	allow_autoscan is set to true
+debug	libnfc.general	allow_intrusive_scan is set to false
+debug	libnfc.general	0 device(s) defined by user
+debug	libnfc.driver.acr122_usb	device found: Bus 003 Device 006 Name Touchatag
+debug	libnfc.general	1 device(s) found using acr122_usb driver
+debug	libnfc.driver.acr122_usb	3 element(s) have been decoded from "acr122_usb:003:006"
+debug	libnfc.driver.acr122_usb	TX: 62 00 00 00 00 00 00 01 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 13 00 00 00 00 00 00 00 00 3b be 95 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00 
+debug	libnfc.driver.acr122_usb	ACR122 PICC Operating Parameters
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff 00 51 00 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 63 00 
+debug	libnfc.chip.pn53x	GetFirmwareVersion
+debug	libnfc.driver.acr122_usb	TX: 6f 07 00 00 00 00 00 00 00 00 ff 00 00 00 02 d4 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 08 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 08 
+debug	libnfc.driver.acr122_usb	RX: 80 08 00 00 00 00 00 00 00 00 d5 03 32 01 04 07 90 00 
+debug	libnfc.chip.pn53x	SetParameters
+debug	libnfc.driver.acr122_usb	TX: 6f 08 00 00 00 00 00 00 00 00 ff 00 00 00 03 d4 12 14 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 13 90 00 
+debug	libnfc.general	"    / CCID USB Reader" (acr122_usb:003:006) has been claimed.
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 11 00 00 00 00 00 00 00 00 ff 00 00 00 0c d4 06 63 02 63 03 63 0d 63 38 63 3d 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 09 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 09 
+debug	libnfc.driver.acr122_usb	RX: 80 09 00 00 00 00 00 00 00 00 d5 07 80 80 00 00 00 90 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 32 01 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 33 90 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 32 01 01 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 33 90 00 
+debug	libnfc.chip.pn53x	RFConfiguration
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 32 05 ff ff ff 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 33 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 06 63 02 63 03 63 05 63 38 63 3c 63 3d 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 0a 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 0a 
+debug	libnfc.driver.acr122_usb	RX: 80 0a 00 00 00 00 00 00 00 00 d5 07 80 80 40 00 10 00 90 00 
+debug	libnfc.chip.pn53x	InListPassiveTarget
+debug	libnfc.chip.pn53x	No timeout
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 4a 01 00 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 17 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 17 
+debug	libnfc.driver.acr122_usb	RX: 80 17 00 00 00 00 00 00 00 00 d5 4b 01 01 03 44 20 07 04 5f 1e c1 b6 1b 80 06 75 77 81 02 8f 90 00 
+Found tag:
+ISO/IEC 14443A (106 kbps) target:
+    ATQA (SENS_RES): 03  44  
+       UID (NFCID1): 04  5f  1e  c1  b6  1b  80  
+      SAK (SEL_RES): 20  
+                ATS: 75  77  81  02  8f  
+******************Select Root Application*******************
+Sent bytes:     02  90  5a  00  00  03  00  00  00  00  
+************************
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxMode (Defines the transmission data rate and framing during transmission)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 80 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TMode (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TPrescaler (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_hi (Describes the 16-bit long timer reload value (Higher 8 bits))
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_lo (Describes the 16-bit long timer reload value (Lower 8 bits))
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 08 63 1a 80 63 1b 00 63 1c ff 63 1d ff 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 2e 00 00 00 00 00 00 00 00 ff 00 00 00 29 d4 08 63 31 0c 63 3a 80 63 39 02 63 39 90 63 39 5a 63 39 00 63 39 00 63 39 03 63 39 00 63 39 00 63 39 00 63 39 00 63 3d 80 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 03 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 06 63 39 63 39 63 39 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 08 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 08 
+debug	libnfc.driver.acr122_usb	RX: 80 08 00 00 00 00 00 00 00 00 d5 07 02 91 00 00 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 06 63 1e 63 1f 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 06 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 06 
+debug	libnfc.driver.acr122_usb	RX: 80 06 00 00 00 00 00 00 00 00 d5 07 00 00 90 00 
+Response after 4294967295 cycles
+Received bytes: 02  91  00  
+******************List Applications*******************
+Sent bytes:     02  90  6a  00  00  00  
+************************
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxMode (Defines the transmission data rate and framing during transmission)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 80 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TMode (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TPrescaler (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_hi (Describes the 16-bit long timer reload value (Higher 8 bits))
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_lo (Describes the 16-bit long timer reload value (Lower 8 bits))
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 08 63 1a 80 63 1b 00 63 1c ff 63 1d ff 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 22 00 00 00 00 00 00 00 00 ff 00 00 00 1d d4 08 63 31 0c 63 3a 80 63 39 02 63 39 90 63 39 6a 63 39 00 63 39 00 63 39 00 63 3d 80 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 03 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 06 63 39 63 39 63 39 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 08 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 08 
+debug	libnfc.driver.acr122_usb	RX: 80 08 00 00 00 00 00 00 00 00 d5 07 03 91 00 00 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 06 63 1e 63 1f 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 06 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 06 
+debug	libnfc.driver.acr122_usb	RX: 80 06 00 00 00 00 00 00 00 00 d5 07 e1 18 90 00 
+Response after 7382 cycles
+Received bytes: 03  91  00  
+0 application(s): 
+******************Create Application*******************
+Sent bytes:     02  90  ca  00  00  05  02  00  00  0f  0e  00  
+************************
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxMode (Defines the transmission data rate and framing during transmission)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 80 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TMode (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TPrescaler (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_hi (Describes the 16-bit long timer reload value (Higher 8 bits))
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_lo (Describes the 16-bit long timer reload value (Lower 8 bits))
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 08 63 1a 80 63 1b 00 63 1c ff 63 1d ff 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 34 00 00 00 00 00 00 00 00 ff 00 00 00 2f d4 08 63 31 0c 63 3a 80 63 39 02 63 39 90 63 39 ca 63 39 00 63 39 00 63 39 05 63 39 02 63 39 00 63 39 00 63 39 0f 63 39 0e 63 39 00 63 3d 80 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 02 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0d 00 00 00 00 00 00 00 00 ff 00 00 00 08 d4 06 63 39 63 39 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 07 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 07 
+debug	libnfc.driver.acr122_usb	RX: 80 07 00 00 00 00 00 00 00 00 d5 07 f2 01 00 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 06 63 1e 63 1f 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 06 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 06 
+debug	libnfc.driver.acr122_usb	RX: 80 06 00 00 00 00 00 00 00 00 d5 07 00 00 90 00 
+Response after 4294967295 cycles
+Received bytes: f2  01  
+************************
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxMode (Defines the transmission data rate and framing during transmission)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 80 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TMode (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TPrescaler (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_hi (Describes the 16-bit long timer reload value (Higher 8 bits))
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_lo (Describes the 16-bit long timer reload value (Lower 8 bits))
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 08 63 1a 80 63 1b 00 63 1c ff 63 1d ff 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 16 00 00 00 00 00 00 00 00 ff 00 00 00 11 d4 08 63 31 0c 63 3a 80 63 39 f2 63 39 01 63 3d 80 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 03 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0f 00 00 00 00 00 00 00 00 ff 00 00 00 0a d4 06 63 39 63 39 63 39 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 08 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 08 
+debug	libnfc.driver.acr122_usb	RX: 80 08 00 00 00 00 00 00 00 00 d5 07 02 91 00 00 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 06 63 1e 63 1f 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 06 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 06 
+debug	libnfc.driver.acr122_usb	RX: 80 06 00 00 00 00 00 00 00 00 d5 07 19 18 90 00 
+Response after 3873957014 cycles
+Received bytes: 02  91  00  
+Sent bytes:     02  90  5a  00  00  03  02  00  00  00  
+************************
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TxMode (Defines the transmission data rate and framing during transmission)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 02 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 80 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TMode (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TPrescaler (Defines settings for the internal timer)
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_hi (Describes the 16-bit long timer reload value (Higher 8 bits))
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_TReloadVal_lo (Describes the 16-bit long timer reload value (Lower 8 bits))
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 13 00 00 00 00 00 00 00 00 ff 00 00 00 0e d4 08 63 1a 80 63 1b 00 63 1c ff 63 1d ff 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	WriteRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 2e 00 00 00 00 00 00 00 00 ff 00 00 00 29 d4 08 63 31 0c 63 3a 80 63 39 02 63 39 90 63 39 5a 63 39 00 63 39 00 63 39 03 63 39 02 63 39 00 63 39 00 63 39 00 63 3d 80 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 04 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 04 
+debug	libnfc.driver.acr122_usb	RX: 80 04 00 00 00 00 00 00 00 00 d5 09 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	PN53X_REG_CIU_FIFOLevel (Indicates the number of bytes stored in the FIFO)
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 09 00 00 00 00 00 00 00 00 ff 00 00 00 04 d4 06 63 3a 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 05 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 05 
+debug	libnfc.driver.acr122_usb	RX: 80 05 00 00 00 00 00 00 00 00 d5 07 00 90 00 
+debug	libnfc.chip.pn53x	ReadRegister
+debug	libnfc.driver.acr122_usb	TX: 6f 0b 00 00 00 00 00 00 00 00 ff 00 00 00 06 d4 06 63 1e 63 1f 
+debug	libnfc.driver.acr122_usb	RX: 80 02 00 00 00 00 00 00 00 00 61 06 
+debug	libnfc.driver.acr122_usb	TX: 6f 05 00 00 00 00 00 00 00 00 ff c0 00 00 06 
+debug	libnfc.driver.acr122_usb	RX: 80 06 00 00 00 00 00 00 00 00 d5 07 00 00 90 00 
+Received bytes: 
+SELECT APPLICATION: Success
